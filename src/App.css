@@ -17,17 +17,18 @@ body {
 
 /* INFO SECTION */
 .info-section {
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 .info-inner-container {
   padding: 2rem;
   display: flex;
-  width: 85%;
+  width: 100%;
   margin: auto;
-  background: #ddd;
+  background: #eee;
   height: 450px;
   align-items: center;
+  margin: 2rem 0;
 }
 .pic-box {
   width: 40%;
@@ -38,4 +39,14 @@ body {
 }
 .info-text-box {
   width: 45%;
+}
+
+/* CONTACT */
+#contact {
+  display: flex;
+  padding: 3rem;
+  background: #eee;
+}
+.contact-info {
+  padding: 3rem;
 }

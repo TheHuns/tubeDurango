@@ -39,10 +39,10 @@ export default class MainNav extends React.Component {
                 <NavLink href="#info-section">What to Expect</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="location">Location</NavLink>
+                <NavLink href="#location">Location</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="contact">Contact Us</NavLink>
+                <NavLink href="#contact">Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

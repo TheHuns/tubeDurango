@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import { Container } from "reactstrap";
 
 // Components
 import CarouselHeader from "./components/CarouselHeader";
 import MainNav from "./components/MainNav";
 import InfoSection from "./components/InfoSection";
+import Location from "./components/Location";
+import Contact from "./components/Contact";
 
 // CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +18,11 @@ class App extends Component {
       <React.Fragment>
         <MainNav />
         <CarouselHeader />
-        <InfoSection />
+        <Container>
+          <InfoSection />
+          <Location />
+          <Contact />
+        </Container>
       </React.Fragment>
     );
   }

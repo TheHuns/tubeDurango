@@ -16,17 +16,17 @@ const items = [
   {
     src: carousel1,
     altText: "Slide 1",
-    caption: "Slide 1"
+    caption: "Rafters"
   },
   {
     src: carousel2,
     altText: "Slide 2",
-    caption: "Slide 2"
+    caption: "Tubers in flip flops..."
   },
   {
     src: carousel3,
     altText: "Slide 3",
-    caption: "Slide 3"
+    caption: "Barefoot Tubing"
   }
 ];
 
@@ -83,10 +83,7 @@ class CarouselHeader extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption
-            captionText={item.caption}
-            captionHeader={item.caption}
-          />
+          <CarouselCaption captionHeader={item.caption} />
         </CarouselItem>
       );
     });
