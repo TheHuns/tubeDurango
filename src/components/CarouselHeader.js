@@ -94,6 +94,9 @@ class CarouselHeader extends Component {
         next={this.next}
         previous={this.previous}
         className="carousel-header"
+        autoPlay="true"
+        interval="3000"
+        pause="false"
       >
         <CarouselIndicators
           items={items}
